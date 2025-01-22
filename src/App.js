@@ -15,7 +15,7 @@ const App = () => {
             }
           });
         },
-        { threshold: 0.2 } // Trigger when 20% of the element is visible
+        { threshold: 0.5 } // Trigger when 50% of the element is visible
       );
 
       elements.forEach((el) => observer.observe(el));
@@ -103,6 +103,29 @@ const App = () => {
           ))}
         </div>
       </section>
+
+      {/* Contact Section */}
+<section className="contact section-scroll-trigger">
+  <h2>Connect with Me</h2>
+  <div className="contact-links">
+    <a href="https://www.linkedin.com/in/pranav-reddy-6a05961b0" target="_blank" rel="noopener noreferrer" className="contact-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/LinkedIn_Logo_2023.png" alt="LinkedIn" className="contact-icon" />
+      <span>LinkedIn</span>
+    </a>
+    <a href="https://github.com/itspranavnow" target="_blank" rel="noopener noreferrer" className="contact-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" className="contact-icon" />
+      <span>GitHub</span>
+    </a>
+    <a href="https://drive.google.com/drive/folders/1ukwsfykduXU1ZMhd5ZzQF7KbR1PBuOab" target="_blank" rel="noopener noreferrer" className="contact-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Google_Drive_Logo_2022.svg" alt="Resume" className="contact-icon" />
+      <span>Resume</span>
+    </a>
+    <a href="https://leetcode.com/itspranavnow" target="_blank" rel="noopener noreferrer" className="contact-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/LeetCode_logo_2021.png" alt="LeetCode" className="contact-icon" />
+      <span>LeetCode</span>
+    </a>
+  </div>
+</section>
 
       {/* Footer Section */}
       <footer className="footer">

@@ -104,51 +104,6 @@ const App = () => {
         </div>
       </section>
 
-      <footer className="footer">
-  <p>&copy; 2025 Pranav Reddy Sandannagari. All rights reserved.</p>
-  <div className="footer-links">
-    <a href="https://github.com/itspranavnow" target="_blank" rel="noopener noreferrer">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
-        alt="GitHub"
-        style={{ width: '24px', marginRight: '8px' }}
-      />
-      GitHub
-    </a>
-    <a href="mailto:reddypranav2311@gmail.com">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.svg"
-        alt="Gmail"
-        style={{ width: '24px', marginRight: '8px' }}
-      />
-      Gmail
-    </a>
-    <a href="https://www.linkedin.com/in/pranav-reddy-6a05961b0" target="_blank" rel="noopener noreferrer">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
-        alt="LinkedIn"
-        style={{ width: '24px', marginRight: '8px' }}
-      />
-      LinkedIn
-    </a>
-    <a href="https://leetcode.com/your-username" target="_blank" rel="noopener noreferrer">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
-        alt="LeetCode"
-        style={{ width: '24px', marginRight: '8px' }}
-      />
-      LeetCode
-    </a>
-    <a href="https://drive.google.com/file/d/your-resume-id/view" target="_blank" rel="noopener noreferrer">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg"
-        alt="Resume"
-        style={{ width: '24px', marginRight: '8px' }}
-      />
-      Resume
-    </a>
-  </div>
-</footer>
 {/* Contact Section */}
 <section className="contact section-scroll-trigger">
   <h2>Connect with Me</h2>
@@ -162,6 +117,7 @@ const App = () => {
       <span>GitHub</span>
     </a>
     <a href="https://drive.google.com/drive/folders/1ukwsfykduXU1ZMhd5ZzQF7KbR1PBuOab" target="_blank" rel="noopener noreferrer" className="contact-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Microsoft_Office_Word_2013_logo_%28vector%29.svg" alt="Resume" className="contact-icon"/>
       <span>Resume</span>
     </a>
     <a href="https://leetcode.com/itspranavnow" target="_blank" rel="noopener noreferrer" className="contact-item">

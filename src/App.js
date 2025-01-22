@@ -116,8 +116,8 @@ const App = () => {
       <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" className="contact-icon" />
       <span>GitHub</span>
     </a>
-    <a href="https://drive.google.com/drive/folders/1ukwsfykduXU1ZMhd5ZzQF7KbR1PBuOab" target="_blank" rel="noopener noreferrer" className="contact-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Microsoft_Office_Word_2013_logo_%28vector%29.svg" alt="Resume" className="contact-icon"/>
+    <a href="https://drive.google.com/file/d/1OXUVXmAeDOSvWQqsmUni8pKsA_1wgpfJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Google_Docs_logo_%282014-2020%29.svg" alt="Resume" className="contact-icon"/>
       <span>Resume</span>
     </a>
     <a href="https://leetcode.com/itspranavnow" target="_blank" rel="noopener noreferrer" className="contact-item">

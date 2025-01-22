@@ -105,7 +105,7 @@ const App = () => {
       </section>
 
 {/* Contact Section */}
-<section className="contact section-scroll-trigger">
+<section className="contact section">
   <h2>Connect with Me</h2>
   <div className="contact-links">
     <a href="https://www.linkedin.com/in/pranav-reddy-6a05961b0" target="_blank" rel="noopener noreferrer" className="contact-item">

@@ -116,7 +116,7 @@ const App = () => {
       <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" className="contact-icon" />
       <span>GitHub</span>
     </a>
-    <a href="https://drive.google.com/uc?export=download&id=yourResumeLink" target="_blank" rel="noopener noreferrer" className="contact-item">
+    <a href="https://drive.google.com/drive/folders/1ukwsfykduXU1ZMhd5ZzQF7KbR1PBuOab" target="_blank" rel="noopener noreferrer" className="contact-item">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Google_Drive_Logo_2022.svg" alt="Resume" className="contact-icon" />
       <span>Resume</span>
     </a>
@@ -126,7 +126,6 @@ const App = () => {
     </a>
   </div>
 </section>
-
 
       {/* Footer Section */}
       <footer className="footer">

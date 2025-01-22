@@ -104,36 +104,51 @@ const App = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
-<section className="contact section-scroll-trigger">
-  <h2>Connect with Me</h2>
-  <div className="contact-links">
-    <a href="https://www.linkedin.com/in/pranav-reddy-6a05961b0" target="_blank" rel="noopener noreferrer" className="contact-item">
-      <img src="https://www.bing.com/images/search?view=detailV2&ccid=7y88DqLR&id=999975844392E378326EE9AD75FE4D0E96841F91&thid=OIP.7y88DqLREW8ApbxWuMBmzgHaEo&mediaurl=https%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f01%2fLogo-Linkedin.png&exph=2125&expw=3400&q=linkedin+logo&simid=608005990949543629&FORM=IRPRST&ck=A123BD4E0CCA2BEE708A3FBDE5F3CF93&selectedIndex=0&itb=1" alt="LinkedIn" className="contact-icon" />
-      <span>LinkedIn</span>
-    </a>
-    <a href="https://github.com/itspranavnow" target="_blank" rel="noopener noreferrer" className="contact-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" className="contact-icon" />
-      <span>GitHub</span>
-    </a>
-    <a href="https://drive.google.com/drive/folders/1ukwsfykduXU1ZMhd5ZzQF7KbR1PBuOab" target="_blank" rel="noopener noreferrer" className="contact-item">
-      <img src="https://www.bing.com/images/search?view=detailV2&ccid=P5zMNm6G&id=D19DCEFBD6C76B42D0938BD1B8B34AC013A8F47F&thid=OIP.P5zMNm6Gyb5PLSyllpv7_wAAAA&mediaurl=https%3a%2f%2fwww.conovercompany.com%2fwp-content%2fuploads%2f2019%2f06%2fwr-resumes-logo.png&exph=300&expw=300&q=resume+logo&simid=608008232971614974&FORM=IRPRST&ck=4C44C9E9EDF3A7B67CC21C920C5DD435&selectedIndex=25&itb=1" alt="Resume" className="contact-icon" />
-      <span>Resume</span>
-    </a>
-    <a href="https://leetcode.com/itspranavnow" target="_blank" rel="noopener noreferrer" className="contact-item">
-      <img src="https://www.bing.com/ck/a?!&&p=4bc3b5c826206a75286a44b9f0b533c7a57322d18e497ac85a443545f6135048JmltdHM9MTczNzUwNDAwMA&ptn=3&ver=2&hsh=4&fclid=159ecdb0-c752-6eb9-1280-de1dc6ff6fbd&u=a1L2ltYWdlcy9zZWFyY2g_cT1sZWV0Y29kZSUyMGxvZ28mRk9STT1JUUZSQkEmaWQ9MTA2NTA2MUI5MTRCODY1MTNDN0MxMkIxOURCRDk4QzRBMUZDNUY1MA&ntb=1" alt="LeetCode" className="contact-icon" />
-      <span>LeetCode</span>
-    </a>
-  </div>
-</section>
-
       {/* Footer Section */}
       <footer className="footer">
         <p>&copy; 2025 Pranav Reddy Sandannagari. All rights reserved.</p>
-        <p>
-          Email: reddypranav2311@gmail.com | LinkedIn:{' '}
-          <a href="https://www.linkedin.com/in/pranav-reddy-6a05961b0">Pranav Reddy</a>
-        </p>
+        <div className="footer-links">
+          <a href="https://github.com/itspranavnow" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+              alt="GitHub"
+              style={{ width: '24px', marginRight: '8px' }}
+            />
+            GitHub
+          </a>
+          <a href="mailto:reddypranav2311@gmail.com">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.svg"
+              alt="Gmail"
+              style={{ width: '24px', marginRight: '8px' }}
+            />
+            Gmail
+          </a>
+          <a href="https://www.linkedin.com/in/pranav-reddy-6a05961b0" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+              alt="LinkedIn"
+              style={{ width: '24px', marginRight: '8px' }}
+            />
+            LinkedIn
+          </a>
+          <a href="https://leetcode.com/your-username" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+              alt="LeetCode"
+              style={{ width: '24px', marginRight: '8px' }}
+            />
+            LeetCode
+          </a>
+          <a href="https://drive.google.com/file/d/your-resume-id/view" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg"
+              alt="Resume"
+              style={{ width: '24px', marginRight: '8px' }}
+            />
+            Resume
+          </a>
+        </div>
       </footer>
     </div>
   );

@@ -162,7 +162,6 @@ const App = () => {
       <span>GitHub</span>
     </a>
     <a href="https://drive.google.com/drive/folders/1ukwsfykduXU1ZMhd5ZzQF7KbR1PBuOab" target="_blank" rel="noopener noreferrer" className="contact-item">
-      <alt="Resume" className="contact-icon" />
       <span>Resume</span>
     </a>
     <a href="https://leetcode.com/itspranavnow" target="_blank" rel="noopener noreferrer" className="contact-item">

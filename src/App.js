@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
+import ExpertiseAndSkills from './components/ExpertiseAndSkills';
 
 const App = () => {
   useEffect(() => {
@@ -15,7 +16,7 @@ const App = () => {
             }
           });
         },
-        { threshold: 0.5 } // Trigger when 50% of the element is visible
+        { threshold: 0.25 } // Trigger when 25% of the element is visible
       );
 
       elements.forEach((el) => observer.observe(el));
@@ -45,29 +46,10 @@ const App = () => {
         </p>
       </section>
 
-      {/* Areas of Expertise Section */}
-      <section className="expertise-section">
-        <h2>Areas of Expertise</h2>
-        <div className="expertise-grid">
-          {[
-            'Generative AI and NLP',
-            'Quantitative Analysis',
-            'Predictive Modeling',
-            'Statistical Analysis',
-            'Data Visualization',
-            'Text Analytics',
-            'Prompt Engineering',
-            'Data Engineering',
-            'Data Mining and ETL Process',
-            'Database Management',
-            'Data Security and Integration',
-            'Stakeholder Engagement',
-          ].map((expertise, index) => (
-            <div key={index} className="expertise-item section-scroll-trigger">
-              {expertise}
-            </div>
-          ))}
-        </div>
+      {/* Expertise and Skills Section */}
+      <section className="expertise-section section-scroll-trigger">
+        <h2>Expertise and Skills</h2>
+        <ExpertiseAndSkills />
       </section>
 
       {/* Projects Section */}
@@ -104,35 +86,34 @@ const App = () => {
         </div>
       </section>
 
-{/* Contact Section */}
-<section className="contact section">
-  <h2>Connect with Me</h2>
-  <div className="contact-links">
-    <a href="https://www.linkedin.com/in/pranav-reddy-6a05961b0" target="_blank" rel="noopener noreferrer" className="contact-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" className="contact-icon" />
-      <span>LinkedIn</span>
-    </a>
-    <a href="https://github.com/itspranavnow" target="_blank" rel="noopener noreferrer" className="contact-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" className="contact-icon" />
-      <span>GitHub</span>
-    </a>
-    <a href="https://drive.google.com/file/d/1OXUVXmAeDOSvWQqsmUni8pKsA_1wgpfJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Google_Docs_logo_%282014-2020%29.svg" alt="Resume" className="contact-icon"/>
-      <span>Resume</span>
-    </a>
-    <a href="https://leetcode.com/itspranavnow" target="_blank" rel="noopener noreferrer" className="contact-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" className="contact-icon" />
-      <span>LeetCode</span>
-    </a>
-  </div>
-</section>
+      {/* Contact Section */}
+      <section className="contact section">
+        <h2>Connect with Me</h2>
+        <div className="contact-links">
+          <a href="https://www.linkedin.com/in/pranav-reddy-6a05961b0" target="_blank" rel="noopener noreferrer" className="contact-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" className="contact-icon" />
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/itspranavnow" target="_blank" rel="noopener noreferrer" className="contact-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" className="contact-icon" />
+            <span>GitHub</span>
+          </a>
+          <a href="https://drive.google.com/file/d/1OXUVXmAeDOSvWQqsmUni8pKsA_1wgpfJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Google_Docs_logo_%282014-2020%29.svg" alt="Resume" className="contact-icon"/>
+            <span>Resume</span>
+          </a>
+          <a href="https://leetcode.com/u/pranav4139/" target="_blank" rel="noopener noreferrer" className="contact-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" className="contact-icon" />
+            <span>LeetCode</span>
+          </a>
+        </div>
+      </section>
 
       {/* Footer Section */}
       <footer className="footer">
         <p>&copy; 2025 Pranav Reddy Sandannagari. All rights reserved.</p>
         <p>
-          Email: reddypranav2311@gmail.com | Phone:{'88xxxxxx33'}
-
+          Email: reddypranav2311@gmail.com | Phone:{' 88xxxxxx33'}
         </p>
       </footer>
     </div>
